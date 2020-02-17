@@ -1,0 +1,11 @@
+- ./forever.sh 
+Starting the Infinite Process
+
+[2]+  Stopped                 ./forever.sh
+Como se puede ver, el proceso dice "Stopped" quiere decir que se paró.
+
+- bg lo manda a segundo plano
+[2]+ ./forever.sh &
+
+- El script ya esta con el permiso de ejecucion, debido a que le falta el "x" que hace referencia a "ejecución"
+chmod +x forever.sh
